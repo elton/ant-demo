@@ -11,7 +11,7 @@ const App = () => {
     setDate(value);
   };
   return (
-    <div className='App'>
+    <div className='p-6 max-w-sm items-center space-y-2'>
       <h1>antd version: {version}</h1>
       <DatePicker onChange={onChange} />
       <div style={{ marginTop: 16 }}>
